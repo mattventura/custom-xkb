@@ -1,0 +1,7 @@
+Section "InputClass"
+	Identifier "Topre Numpad"
+	MatchProduct "Topre Corporation Realforce 23U"
+	Option "XkbOptions" ""
+	Option "XkbVariant" "toprenumpad"
+EndSection
+

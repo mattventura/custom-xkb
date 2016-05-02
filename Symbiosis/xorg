@@ -1,0 +1,19 @@
+# Use this to apply to all keyboards
+Section "InputClass"
+	Identifier "Keyboard Defaults"
+	MatchIsKeyboard "on"
+	Option "XkbLayout" "us"
+	Option "XkbVariant" "sym"
+	Option "XkbOptions" "put:your,options:here"
+EndSection
+
+# Use this to apply to a specific keyboard
+Section "InputClass"
+	Identifier "Specific Keyboard"
+	MatchIsKeyboard "on"
+	MatchProduct "Use xinput to figure out what to put here"
+	Option "XkbLayout" "us"
+	Option "XkbVariant" "sym"
+	Option "XkbOptions" "put:your,options:here"
+EndSection
+

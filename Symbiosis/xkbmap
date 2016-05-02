@@ -1,0 +1,37 @@
+partial alphanumeric_keys modifier_keys 
+xkb_symbols "sym" {
+
+    include "us"
+    include "level3(ralt_switch)"
+    name[Group1]= "English Symbiosis";
+
+    key <AD01> { [ NoSymbol, NoSymbol, logicaland,   logicaland ] };
+    key <AD02> { [ NoSymbol, NoSymbol, logicalor,    logicalor ] };
+    key <AD03> { [ NoSymbol, NoSymbol, intersection, intersection ] };
+    key <AD04> { [ NoSymbol, NoSymbol, union,        union ] };
+    key <AD05> { [ NoSymbol, NoSymbol, includedin,   U2286 ] };
+    key <AD06> { [ NoSymbol, NoSymbol, includes,     U2287 ] };
+    key <AD07> { [ NoSymbol, NoSymbol, U2200,        U2200 ] };
+    key <AD08> { [ NoSymbol, NoSymbol, infinity,     infinity ] };
+    key <AD09> { [ NoSymbol, NoSymbol, U2203,        U2203 ] };
+    key <AD10> { [ NoSymbol, NoSymbol, partialderivative, partialderivative ] };
+
+    key <AC01> { [ NoSymbol, NoSymbol, U22A5,      U22A5 ] };
+    key <AC02> { [ NoSymbol, NoSymbol, U22A4,      U22A4 ] };
+    key <AC03> { [ NoSymbol, NoSymbol, U22A2,      U22A2 ] };
+    key <AC04> { [ NoSymbol, NoSymbol, U22A3,      U22A3 ] };
+    key <AC05> { [ NoSymbol, NoSymbol, U2194,      ifonlyif ] };
+    key <AC06> { [ NoSymbol, NoSymbol, leftarrow,  U21D0 ] };
+    key <AC07> { [ NoSymbol, NoSymbol, downarrow,  U21D3 ] };
+    key <AC08> { [ NoSymbol, NoSymbol, uparrow,    U21D1 ] };
+    key <AC09> { [ NoSymbol, NoSymbol, rightarrow, U21D2 ] };
+
+    key <AB01> { [ NoSymbol, NoSymbol, U00AC,            U00AC ] };
+    key <AB02> { [ NoSymbol, NoSymbol, U22A8,            U22A8 ] };
+    key <AB03> { [ NoSymbol, NoSymbol, notequal,         notequal ] };
+    key <AB04> { [ NoSymbol, NoSymbol, approximate,      approximate ] };
+    key <AB05> { [ NoSymbol, NoSymbol, identical,        identical ] };
+    key <AB06> { [ NoSymbol, NoSymbol, lessthanequal,    lessthanequal ] };
+    key <AB07> { [ NoSymbol, NoSymbol, greaterthanequal, greaterthanequal ] };
+
+};

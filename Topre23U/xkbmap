@@ -1,0 +1,6 @@
+partial modifier_keys keypad_keys
+xkb_symbols "toprenumpad" {
+    include "level3(lalt_switch)"
+    key <KP6> { [ NoSymbol, NoSymbol, KP_Equal, KP_Equal ] };
+    key <KP1> { [ NoSymbol, NoSymbol, VoidSymbol, VoidSymbol ] };
+};
